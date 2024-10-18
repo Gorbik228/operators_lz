@@ -9,5 +9,7 @@ while sum + l < s: # задаем условие
     sum += 1 / (a * a) #Считаем сумму последовательности 
     a = a + 1
     iteration += 1 # Считаем чиссло итераций 
-if sum + l >= s: 
-    print("Число итераций =", iteration)
+
+if sum + l >= s:
+   
+    print("Число итераций =", iteration-1)
